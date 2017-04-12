@@ -1,0 +1,57 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box;
+     -ms-box-sizing: border-box; /* IE */
+}
+
+html{
+  height: 100%;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    background-image: url('../UnfriendWebsite/images/Homepage/table.jpeg');
+
+}
+
+.navbar{
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  padding: 5px;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../UnfriendWebsite/images/Homepage/table.jpeg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whiteSection{
+  height:30em;
+  background-color:white;
+  padding: 2em;
+}
+
+h2 {
+  font-size: 36px;
+}
