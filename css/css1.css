@@ -12,7 +12,7 @@ html{
 body {
     font-family: 'Muli', sans-serif;
     height: 100%;
-    background-image: url('../UnfriendWebsite/images/Homepage/table.jpeg');
+    background: url('../UnfriendWebsite/images/Homepage/table.jpeg');
 
 }
 
@@ -32,26 +32,62 @@ body {
 
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('../UnfriendWebsite/images/Homepage/table.jpeg');
+.banner {
+  height: 30em;
+  background-image: url('../UnfriendWebsite/images/Homepage/table.jpeg');
 
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
+.bannerResizing {
+  height: auto;
+  width: auto;
+  max-height: 60em;
+}
+
+
+
 .whiteSection{
-  height:30em;
+  height: 70em;
   background-color:white;
   padding: 2em;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.third {
+  float: left;
+
+}
+
+.center {
+  text-align: center;
+
+}
+
+.thirdsSizing {
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.paddingh2 {
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.pBlue {
+  font-size: 18px;
+  color: #1B6892;
+}
+
+.jobs {
+  float: left;
 }
