@@ -9,6 +9,19 @@ html{
   height: 100%;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
 body {
     font-family: 'Muli', sans-serif;
     height: 100%;
@@ -47,7 +60,7 @@ body {
 
 
 .whiteSection{
-  height: 70em;
+  height: 40em;
   background-color:white;
   padding: 2em;
 }
@@ -90,16 +103,24 @@ h3 {
 }
 
 
-.jobContainer {
-  padding-top: 5em;
-  padding-bottom: 5em;
+.jobs {
   text-align: center;
-;
 
 }
 
-.jobs {
-  display: inline-block;
+.jobs1 {
+  float: left;
+  width: 40%;
+  background-color: red;
+  text-align: center;
+}
+
+.jobs2 {
+  float: right;
+  width: 40%;
+  background-color: blue;
+  text-align: center;
+
 }
 
 
@@ -110,7 +131,6 @@ h3 {
     float: left;
     border: 10px solid #fff;
     overflow: hidden;
-    position: relative;
     text-align: center;
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
@@ -124,14 +144,12 @@ h3 {
     left: 0
 }
 .view img {
-    display: block;
-    position: relative
+
 }
 .view h2 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    position: relative;
     font-size: 17px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
@@ -140,13 +158,11 @@ h3 {
 .view p {
     font-family: 'Muli', sans-serif;
     font-size: 16px;
-    position: relative;
     color: #fff;
     padding: 10px 20px 20px;
     text-align: center
 }
 .view a.info {
-    display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
     background: #000;
@@ -230,4 +246,15 @@ h3 {
 	opacity:1;
     transform: translateY(0px);
 	transition-delay: 0.3s;
+}
+
+
+.jobContainer {
+  padding-top: 10em;
+  padding-bottom: 5em;
+  text-align: center;
+  padding-left: 20%;
+
+
+
 }
