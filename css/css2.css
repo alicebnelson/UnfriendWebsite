@@ -102,6 +102,29 @@ a {
   padding-top: 2em;
 
 }
+
+#hero1 {
+  height: 60em;
+  background: url(../images/MobileAppDev/hero4.png) fixed no-repeat top center #131e27;
+  padding-top: 32px;
+  background-size: 1920px 1080px;
+}
+
+#hero1 .logo {
+  color: #fff;
+}
+#hero1 h2 {
+  font-size: 7em;
+  color: #31A7F0;
+  margin: 120px 0 90px;
+  font-weight: 600;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+  padding-top: 2em;
+
+}
+
+
 .button {
   border-radius: 5px;
   font-weight: 400;
@@ -145,7 +168,7 @@ transition: all 0.3s ease-out;
   transition: all 0.5s ease-in;
 }
 .blue {
-  background: #033048;
+  background: #1B6994;
   color: #fff;
   font-size: 24px;
 }
@@ -375,6 +398,7 @@ blockquote {
 #portfolio {
   background-color: #1B6892;
   color: white;
+  padding-bottom: 7em;
 
 }
 
@@ -386,18 +410,39 @@ blockquote {
 
 .middleLeft{
   float:left;
+  width: 33%;
 }
 
 .middleCenter{
-  float:left;
+  display: inline-block;
+  margin:0 auto;
+  width: 33%;
 }
 
 .middleRight{
-  float:left;
+  float: right;
+  width: 33%;
 }
 
 .middleRow{
+  width: 100%;
   text-align: center;
+}
+
+.bottomLeft{
+  float: left;
+  width: 50%;
+}
+
+.bottomRight{
+  float: right;
+  width: 50%;
+}
+
+.bottomRow{
+  width: 100%;
+  text-align: center;
+
 }
 
 .h3font {
@@ -492,30 +537,54 @@ blockquote {
 }
 
 #bottom-cta {
-  background: #f9e42e;
-  padding: 30px;
+  background: white;
+  padding: 5em;
   text-align: center;
 }
 
 footer {
-  background: #121212;
+  background: #383838;
   padding: 65px 0 45px;
-  text-align: center;
+  width: 100%;
 }
-footer .logo {
-  color: #f9e42e;
-  margin-bottom: 68px;
+
+.footerLeft{
+  width: 70%;
 }
-footer ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 26px 75px;
+
+.footerRight{
+  width: 30%;
 }
+
 footer p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
+  color: white;
 }
+
+.imgPadding {
+  padding-bottom: 1em;
+}
+
+.textPadding {
+  padding-bottom: 5em;
+}
+
+.footerImages{
+  padding-bottom: 2em;
+  padding-top: 3em;
+}
+
+.footerLeft {
+  float: left;
+}
+
+.footerRight {
+  float: left;
+}
+
+.copyright {
+  padding-top: 2em;
+}
+
 #contact {
   width: 70%;
 }
