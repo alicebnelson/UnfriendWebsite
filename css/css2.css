@@ -449,6 +449,18 @@ h3 {
   color: #32A7EF;
 }
 
+.iconSpacing {
+  padding-right: 0.5em;
+}
+
+.iconContact {
+  float: left;
+}
+
+.addressText {
+  float: left;
+}
+
 .pBlue {
   font-size: 18px;
   color: #1B6892;
