@@ -189,7 +189,31 @@ a {
 
 }
 
+#hero5 {
+  height: 60em;
+  background: url(../images/Contact/contact.png) fixed no-repeat top center #131e27;
+  padding-top: 3em;
+  background-size: 1920px 1080px;
+}
 
+#hero5 .logo {
+  color: #fff;
+}
+#hero5 h2 {
+  font-size: 7em;
+  color: #31A7F0;
+  margin: 120px 0 90px;
+  font-weight: 600;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+  padding-top: 1em;
+
+}
+
+
+.leftSide{
+  width: 50%;
+}
 
 .heroQuote {
   padding-bottom: 3em;
