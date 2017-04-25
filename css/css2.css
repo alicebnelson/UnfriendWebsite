@@ -317,6 +317,10 @@ transition: all 0.3s ease-out;
   font-size: 24px;
 }
 
+.buttonSpacing {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 
 h4 {
   color: #1B6994 !important;
@@ -439,6 +443,12 @@ h3 {
   padding-bottom: 1em;
 }
 
+.blueFontRight {
+  font-size: 18px;
+  text-align: left;
+  color: #32A7EF;
+}
+
 .pBlue {
   font-size: 18px;
   color: #1B6892;
@@ -453,6 +463,10 @@ h3 {
 
 .container1 {
   padding-bottom: 5em;
+}
+
+.containerSpacing {
+  padding-top: 3em;
 }
 
 #testimonial {
@@ -808,7 +822,7 @@ input,
 textarea,
 select,
 label {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 24px;
   color: #606161;
 
