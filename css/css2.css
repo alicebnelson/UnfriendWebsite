@@ -457,6 +457,20 @@ h3 {
   float: left;
 }
 
+.iconContact1 {
+  display: inline;
+}
+
+#address {
+  float: left;
+  padding-left: 2em;
+}
+
+#contactInfo {
+  float: left;
+  padding-left: 2em;
+}
+
 .addressText {
   float: left;
 }
