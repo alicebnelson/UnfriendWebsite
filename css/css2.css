@@ -818,7 +818,7 @@ padding-bottom: 20px;
 
 .alignRight{
   float: right;
-  width: 380px;
+  width: 100%;
 }
 
 input[type=text] {
@@ -879,11 +879,25 @@ select{
   background: white;
 }
 
+@media only screen and (max-width: 991px) {
+  .contactMap {
+    width: 100%;
+  }
+
+    #hero5 h2{
+    font-size: 4em;
+  }
+
+  .alignRight {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-width: 771px) {
   .blueBG {
     height: 9em;
   }
+
 
 }
 
