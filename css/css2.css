@@ -458,7 +458,7 @@ h3 {
 }
 
 .iconContact1 {
-  display: inline;
+  float: left;
 }
 
 #address {
@@ -720,6 +720,7 @@ blockquote {
 
 .topRow {
   text-align: center;
+  display: inline-block;
 }
 
 .imgSize {
