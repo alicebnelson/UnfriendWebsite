@@ -735,8 +735,9 @@ blockquote {
 
 .blueBG{
   background-color: #CEEAFB;
-  height: 8em;
+  height: 100%;
   padding-top: 2em;
+  padding-bottom: 2em;
   padding-left: 1em;
   padding-right: 1em;
   font-size: 18px;
@@ -755,6 +756,7 @@ blockquote {
 
 .beauBox {
   padding-top: 3em;
+  height: 100%;
 }
 
 #main {
@@ -913,20 +915,9 @@ select{
   }
 }
 
-@media only screen and (min-width: 771px) {
-  .blueBG {
-    height: 9em;
-  }
 
 
-}
 
-@media only screen and (max-width: 771px) {
-  .blueBG {
-    height: 9em;
-  }
-
-}
 
 @media only screen and (max-width: 768px) {
   body {
