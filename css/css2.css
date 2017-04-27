@@ -211,6 +211,28 @@ a {
 }
 
 
+#hero6 {
+  height: 60em;
+  background: url(../images/LetsBuild/letsbuild.png) fixed no-repeat top center #131e27;
+  padding-top: 3em;
+  background-size: 1920px 1080px;
+}
+
+#hero6 .logo {
+  color: #fff;
+}
+#hero6 h2 {
+  font-size: 7em;
+  color: #31A7F0;
+  margin: 120px 0 90px;
+  font-weight: 600;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  padding-top: 0em;
+
+}
+
+
 .leftSide{
   width: 50%;
 }
@@ -311,6 +333,42 @@ transition: all 0.3s ease-out;
   color: #000;
   transition: all 0.5s ease-in;
 }
+
+.clearButton1 {
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 15px ;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+
+  font-family: 'Muli', sans-serif;
+  display: block;
+box-sizing: border-box;
+padding: 8px;
+width: 80%;
+max-width: 200px;
+background: #fff; /* fallback color for old browsers */
+background: rgba(255, 255, 255, 0.5);
+border-radius: 8px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+letter-spacing: 1px;
+transition: all 0.3s ease-out;
+width: 50%;
+margin: 0 auto;
+margin-bottom: 10em;
+}
+
+.clearButton1:hover,
+.clearButton1:focus,
+.sclearButton1:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+
 .blue {
   background: #1B6994;
   color: #fff;
@@ -773,6 +831,22 @@ blockquote {
   background-color: white;
 }
 
+.containerImg {
+  float: left;
+}
+
+.blogImgSize {
+  width: 100%;
+  padding-top: 1em;
+}
+.containerText {
+  float: left;
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
+  padding-top: 1em;
+
+}
+
 footer {
   background: #383838;
   padding: 65px 0 45px;
@@ -915,6 +989,11 @@ select{
   }
 }
 
+@media only screen and (max-width: 374px) {
+  #hero4 h2 {
+    font-size: 4em;
+  }
+}
 
 
 
