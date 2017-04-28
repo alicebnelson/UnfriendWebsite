@@ -270,6 +270,11 @@ a {
 
 }
 
+.img1 {
+  height: 300px;
+  width: 300px;
+}
+
 .imgLeft {
   float:left;
   text-align: center;
