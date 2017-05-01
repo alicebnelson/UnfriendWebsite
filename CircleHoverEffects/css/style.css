@@ -16,20 +16,28 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/beau1.png);
 }
 
 .ch-img-2 { 
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/kimson1.png);
 }
 
 .ch-img-3 { 
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/carlos1.png);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/alice1.png);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/paul1.png);
 }
 
 .ch-info {
 	position: absolute;
-	background: rgba(63,147,147, 0.8);
+	background: rgba(27,104,146, 0.8);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
