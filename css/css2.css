@@ -271,8 +271,10 @@ a {
 }
 
 .img1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
+  margin-top: 1em;
+
 }
 
 .imgLeft {
@@ -472,6 +474,14 @@ h2 {
 
 .center2 {
   padding-top: 5em;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
 }
 
 .thirdsSizing {
@@ -969,6 +979,18 @@ label {
 
 select{
   background: white;
+}
+
+@media only screen and (min-width: 768px){
+  .aboutRight{
+    text-align: right;
+  }
+  .aboutLeft{
+    text-align: left; 
+  }
+  .aboutCenter{
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
