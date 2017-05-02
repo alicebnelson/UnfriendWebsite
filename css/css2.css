@@ -73,9 +73,7 @@ a {
   padding-bottom: 10px;
 }
 
-.navbar-brand {
 
-}
 .navbar-brand>img {
   padding-bottom: 10px;
 
@@ -232,6 +230,146 @@ a {
 
 }
 
+#pencil {
+  background-image: url(../images/Homepage/bluePencil.png);
+  height: 132px;
+  width: 45px;
+  margin:0 auto;
+}
+
+#pencil:hover {
+  background-image: url(../images/Homepage/greyPencil.png);
+  margin:0 auto;
+}
+
+#hammer {
+  background-image: url(../images/Homepage/blueHammer.png);
+  height: 131px;
+  width: 82px;
+  margin:0 auto;
+}
+
+#hammer:hover {
+  background-image: url(../images/Homepage/greyHammer.png);
+  margin:0 auto;
+}
+
+#umbrella {
+  background-image: url(../images/Homepage/blueUmbrella.png);
+  height: 131px;
+  width: 122px;
+  margin:0 auto;
+}
+
+#umbrella:hover {
+  background-image: url(../images/Homepage/greyUmbrella.png);
+  margin:0 auto;
+}
+
+#smartphone {
+  background-image: url(../images/MobileAppDev/smartphoneblue.png);
+  height: 98px;
+  width: 53px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#smartphone:hover {
+  background-image: url(../images/MobileAppDev/smartphoneblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#footsteps {
+  background-image: url(../images/MobileAppDev/footstepsblue.png);
+  height: 98px;
+  width: 71px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#footsteps:hover {
+  background-image: url(../images/MobileAppDev/footstepsblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#briefcase {
+  background-image: url(../images/MobileAppDev/old-fashion-briefcaseblue.png);
+  height: 98px;
+  width: 119px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#briefcase:hover {
+  background-image: url(../images/MobileAppDev/old-fashion-briefcaseblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#loyalty {
+  background-image: url(../images/MobileAppDev/loyaltyblue.png);
+  height: 98px;
+  width: 100px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#loyalty:hover {
+  background-image: url(../images/MobileAppDev/loyaltyblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#browserSettings {
+  background-image: url(../images/WebAppDev/browser-settingsblue.png);
+  height: 105px;
+  width: 112px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#browserSettings:hover {
+  background-image: url(../images/WebAppDev/browser-settingsblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#monitor {
+  background-image: url(../images/WebAppDev/phone-and-computer-monitor-outlines-inside-a-circleblue.png);
+  height: 116px;
+  width: 181px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#monitor:hover {
+  background-image: url(../images/WebAppDev/phone-and-computer-monitor-outlines-inside-a-circleblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#responsive {
+  background-image: url(../images/WebAppDev/responsiveblue.png);
+  height: 116px;
+  width: 145px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#responsive:hover {
+  background-image: url(../images/WebAppDev/responsiveblack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
 
 .leftSide{
   width: 50%;
