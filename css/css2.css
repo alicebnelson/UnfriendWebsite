@@ -371,6 +371,51 @@ a {
 
 }
 
+#size {
+  background-image: url(../images/AboutUs/sizeBlue1.png);
+  height: 160px;
+  width: 160px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#size:hover {
+  background-image: url(../images/AboutUs/sizeBlack1.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#expertise {
+  background-image: url(../images/AboutUs/ExpertiseBlue1.png);
+  height: 160px;
+  width: 160px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#expertise:hover {
+  background-image: url(../images/AboutUs/ExpertiseBlack1.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
+#innovation {
+  background-image: url(../images/AboutUs/innovationBlue.png);
+  height: 160px;
+  width: 160px;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+#innovation:hover {
+  background-image: url(../images/AboutUs/InnovationBlack.png);
+  margin:0 auto;
+  margin-top: 2em;
+
+}
+
 .leftSide{
   width: 50%;
 }
