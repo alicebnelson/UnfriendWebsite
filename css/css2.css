@@ -794,7 +794,7 @@ blockquote {
 }
 
 .view .mask, .view .content {
-    width: 341px;
+    width: 451px;
     height: 381px;
     position: absolute;
     overflow: hidden;
