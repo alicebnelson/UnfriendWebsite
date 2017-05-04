@@ -134,7 +134,7 @@ a {
 }
 #hero2 h2 {
   font-size: 7em;
-  color: #31A7F0;
+  color: #1B6892;
   margin: 120px 0 90px;
   font-weight: 600;
   font-family: 'Muli', sans-serif;
@@ -155,7 +155,7 @@ a {
 }
 #hero3 h2 {
   font-size: 4em;
-  color: #31A7F0;
+  color: #DEF494;
   margin: 100px 0 90px;
   font-weight: 600;
   font-family: 'Muli', sans-serif;
@@ -229,6 +229,41 @@ a {
   padding-top: 0em;
 
 }
+
+.stickyButton{
+  position: fixed;
+  top: 90%;
+  right: 0px;
+  width: 115px;
+  height: 0px;
+  text-align:left;
+  z-index:9999;
+   margin-top:-15px;
+  border-top-left-radius: 2em;
+   border-bottom-left-radius: 2em;
+}
+
+.stickyButton a{
+                display: block; 
+                background: #32A7EF; 
+               text-align:left;
+                height: 50px; 
+                width: 165px;
+                padding: 12px 16px;
+                color: #fff; 
+                font-family: 'Muli', sans-serif; 
+                font-size: 17px; 
+                font-weight: bold; 
+                text-decoration: none; 
+                border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+                    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.stickyButton a:hover { 
+				background: #fff; 
+        color: #32A7EF; 
+			}
 
 #pencil {
   background-image: url(../images/Homepage/bluePencil.png);
