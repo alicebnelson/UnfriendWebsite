@@ -10,6 +10,8 @@
       <link rel="stylesheet" href="css/hover.css">
       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		  <link rel="stylesheet" href="../dist/aos.css" />  
       <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
       <link rel="shortcut icon" type="image/x-icon" href="../UnfriendWebsite/images/favicon.png">
    </head>
@@ -52,7 +54,9 @@
             <div class=" center1">
 
               <div class="articleContainer">
+                <div  data-aos="fade-up">
                 <div class="containerImg col-xs-12 col-sm-4">
+                  
                   <a href="transactionalEmails1.html"><img class="blogImgSize" src="../UnfriendWebsite/images/Blog/email-621x320.png"></a>
                 </div>
                 <div class="containerText col-xs-12 col-sm-8">
@@ -67,13 +71,16 @@
                   </a>
                 </div>
               </div>
+              </div>
 	
 						</div>
          </div>
         </div>
       </section>
       <aside id="bottom-cta">
+        <div  data-aos="fade-up">
          <a class="button blue" href="register.html">Let's Build!</a>
+        </div> 
       </aside>
       <footer>
          <div class="container">
@@ -106,6 +113,28 @@
             <p class="copyright">&copy; 2017. Unfriend Studios L.L.C.</p>
          </div>
       </footer>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="../dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+      setInterval(addItem, 300);
+
+      var itemsCounter = 1;
+      var container = document.getElementById('aos-demo');
+
+      function addItem () {
+        if (itemsCounter > 42) return;
+        var item = document.createElement('div');
+        item.classList.add('aos-item');
+        item.setAttribute('data-aos', 'fade-up');
+        item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
+        container.appendChild(item);
+        itemsCounter++;
+      }
+    </script>
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
    </body>

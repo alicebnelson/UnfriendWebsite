@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	 <link rel="stylesheet" href="../dist/aos.css" />
+
 
 </head>
 
@@ -58,6 +60,7 @@
 	</div>
 	<section id="benefits">
 		<div class="container container1">
+			<div data-aos="fade-up">
 			<h2 class="paddingh2">Trust Us. We're Experts.</h2>
 			<div class="center">
 				<div class="third col-sm-4 col-xs-12">
@@ -85,21 +88,25 @@
 					</p>
 				</div>
 			</div>
+			</div>
 		</div>
 	</section>
 	
 	<section id="testimonial">
 		<div class="container">
+			<div  data-aos="fade-up">
 			<p><span class="quotes">&ldquo;</span>Great experience working with Beau and the team at Unfriend Studios! They've been very
 				professional and their creative input has been appreciated. I'd definitely work with them in the future!.<span class="quotes">&rdquo;</span>
 			</p>
 			<p><span class="name">- Steven S, OPA</span></p>
+			</div>
 		</div>
 	</section>
 	<section id="jobContainer">
 		<div id="services">
 			<div class="container">
 				<div class="jobContainer center clearfix">
+					<div  data-aos="fade-up">
 					<div class="jobs col-md-6 col-xs-12 view-sixth view jobs1">
 						<img src="../UnfriendWebsite/images/Homepage/mobileAppScreen.png">
 						<div class="mask">
@@ -120,10 +127,12 @@
 						</div>
 					</div>
 				</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section id="portfolio">
+		<div  data-aos="fade-up">
 		<div class="container">
 			<div class="portfolioStyle">
 				<h3 class="h3font">We're Happy. They're Happy.</h3>
@@ -152,9 +161,12 @@
 			</div>
 		</div>
 		</div>
+		</div>
 	</section>
 	<aside id="bottom-cta">
+		<div  data-aos="fade-up">
 		<a class="button blue" href="register.html">Let's Build!</a>
+		</div>
 	</aside>
 	<footer>
 		<div class="container">
@@ -192,6 +204,27 @@ filter: grayscale(100%);">
 			</div>
 	</footer>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="../dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+      setInterval(addItem, 300);
+
+      var itemsCounter = 1;
+      var container = document.getElementById('aos-demo');
+
+      function addItem () {
+        if (itemsCounter > 42) return;
+        var item = document.createElement('div');
+        item.classList.add('aos-item');
+        item.setAttribute('data-aos', 'fade-up');
+        item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
+        container.appendChild(item);
+        itemsCounter++;
+      }
+    </script>
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

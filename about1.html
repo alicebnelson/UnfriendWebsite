@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="css/hover.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="../dist/aos.css" />
 		<link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
 		<link rel="shortcut icon" type="image/x-icon" href="../UnfriendWebsite/images/favicon.png">
 
@@ -54,6 +56,7 @@
 		<section id="benefits2">
 			<div class="container container1">
 				<div class="center center1 center3">
+					<div  data-aos="fade-up">
 					<h3 class="blueFont">Independent Developers of Custom, Scalable, Affordable Mobile and Web Applications </h3>
 					<div class="beauImg col-xs-12 col-md-4">
 						<img class="beauSizing" src="../UnfriendWebsite/images/AboutUs/beau.png">
@@ -68,26 +71,34 @@
 						<p class="pBlack">
 							That’s the idea behind Unfriend Studios. We build software—mobile apps, web apps, and APIs—that make our client’s vision a reality today, and that grows with that vision for tomorrow. We believe that for every dream, there is an app. We make that app.
 						</p>
+						</div>
 					</div>
 					<div class=imgGroup>
 						<div class="imgCenter">
+							<div data-aos="fade-up">
 							<h3 class="PillarFont">Unfriend Studios is Built on a Foundation of Three Pillars</h3>
 							<div id="size" class="center imgPadding1 hvr-grow-rotate"></div>
 							<h4 class="PillarFont1">Size</h4>
 							<p class="pBlack">
 								We are a small developer with a large regional reach. Our manageable size means that our right hand always knows what our left hand is doing. We’re a naturally synergistic team of complimentary expertise and experience, and we collectively develop and maintain close, well-informed client relationships. As a result, we know each other’s work well. Because we also understand the business of business, we can relate to our clients’ challenges—and build efficient, scalable, custom mobile and Web apps that address them.
 							</p>
+							</div>
+							<div data-aos="fade-up">
 							<div id="expertise" class="center imgPadding1 hvr-grow-rotate"></div>
 							<h4 class="PillarFont1">Expertise</h4>
 							<p class="pBlack">
 								In addition to our three years at Unfriend Studios, we bank on Beau’s over 15 years of successfully assisting small- to medium-sized businesses. We understand that to optimize contact with target publics, clients need a tailored message that meets them where they are. Platform matters as much as look and feel does when it comes to getting an app right. Unfriend Studios designs mobile and web apps to exceed expectations, and communicate our client’s message consistently throughout the user experience. Our record of experience, and a growing client roster, proves our point.
 							</p>
+							</div>
+							<div data-aos="fade-up">
 							<div id="innovation" class="center imgPadding1 hvr-grow-rotate"></div>
 							<h4 class="PillarFont1">Innovation</h4>
 							<p class="pBlack">
 								Our principal goal is always to increase our client’s IT scalability, and at the same time reduce infrastructural inefficiency and cost. A major component of the Unfriend Studios approach is innovatively leveraging cloud infrastructure to respond to our clients’ present needs as well as future goals. Our lean, responsive, distinctive apps for smartphones and/or web browsers,  and smart, secure APIs set our clients apart, enhance brand presence market-wide, and build customer loyalty. They also attract third-party collaboration.
 							</p>
 					</div>
+					</div>
+					<div data-aos="fade-up">
 					<div class="team">
 						<h3 class"PillarFont">Our Team</h3>
 					</div>
@@ -136,13 +147,15 @@
 					</li>
 					
 				</ul>
-	
+				</div>
 				</div>
 			</div>
 		</section>
 		
     <aside id="bottom-cta">
+		<div data-aos="fade-up">
   		<a class="button blue" href="register.html">Let's Build!</a>
+		</div>
   	</aside>
   	<footer>
   		<div class="container">
@@ -176,6 +189,28 @@
   		<p class="copyright">&copy; 2017. Unfriend Studios L.L.C.</p>
   		</div>
   	</footer>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script src="../dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+      setInterval(addItem, 300);
+
+      var itemsCounter = 1;
+      var container = document.getElementById('aos-demo');
+
+      function addItem () {
+        if (itemsCounter > 42) return;
+        var item = document.createElement('div');
+        item.classList.add('aos-item');
+        item.setAttribute('data-aos', 'fade-up');
+        item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
+        container.appendChild(item);
+        itemsCounter++;
+      }
+    </script>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
   </body>

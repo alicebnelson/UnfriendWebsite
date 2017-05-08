@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="css/hover.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    	<link rel="stylesheet" href="../dist/aos.css" />  
 		<link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
 		<link rel="shortcut icon" type="image/x-icon" href="../UnfriendWebsite/images/favicon.png">
 
@@ -54,25 +56,33 @@
 	<section id="benefits1">
 		<div class="container container1">
 			<div class="center center1">
+					<div  data-aos="fade-up">
 					<div id="browserSettings" class="center hvr-grow-rotate"></div>
 					<h3 class="blueFont">Web Application Development </h3>
 					<p class="pBlack">
 							At Unfriend Studios, LLC, our custom web applications are designed with your specifications in mind. Our team is platform agnostic, and we can work as an extension of your existing team.
 					</p>
+					</div>
+					<div  data-aos="fade-up">
 					<div id="monitor" class="center hvr-grow-rotate"></div>
 					<h3 class="blueFont">The Mobile App vs Web App Choice</h3>
 					<p class="pBlack">
 							Although your business’s mobile website can help to create a responsive and user-friendly interface for clients, it doesn’t provide the streamlined convenience of an app customized to their needs. Mobile websites force users to search within their browser for a business’s site, waiting for the page to load at the rate of their connection speed. Alternatively, an app can be opened directly, and customers often retain some functionality even without an internet connection.
 					</p>
+					</div>
+					<div  data-aos="fade-up">
 					<div id="responsive" class="center hvr-grow-rotate"></div>
 					<h3 class="blueFont">Desktop vs Mobile-Friendly Web Applications</h3>
 					<p class="pBlack">
-              No matter what products or services your business offers, there’s an app for that. With a clear interface designed to make the user experience as straightforward and focused as possible, a mobile app can effectively display a range of information, from prices, booking forms, and menus to messaging, banking, and news.					</p>
+              			No matter what products or services your business offers, there’s an app for that. With a clear interface designed to make the user experience as straightforward and focused as possible, a mobile app can effectively display a range of information, from prices, booking forms, and menus to messaging, banking, and news.					</p>
+			  		</div>
 			</div>
 		</div>
 	</section>
 	<aside id="bottom-cta">
+		<div  data-aos="fade-up">
 		<a class="button blue" href="register.html">Let's Build!</a>
+		</div>
 	</aside>
 	<footer>
 		<div class="container">
@@ -106,6 +116,28 @@ filter: grayscale(100%);">
 		<p class="copyright">&copy; 2017. Unfriend Studios L.L.C.</p>
 		</div>
 	</footer>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script src="../dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+      setInterval(addItem, 300);
+
+      var itemsCounter = 1;
+      var container = document.getElementById('aos-demo');
+
+      function addItem () {
+        if (itemsCounter > 42) return;
+        var item = document.createElement('div');
+        item.classList.add('aos-item');
+        item.setAttribute('data-aos', 'fade-up');
+        item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
+        container.appendChild(item);
+        itemsCounter++;
+      }
+    </script>
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
