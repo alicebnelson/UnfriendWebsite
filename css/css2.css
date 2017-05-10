@@ -58,6 +58,11 @@ a {
 /*******************************************/
 
 /* Center the container */
+
+
+
+
+
 .container {
   width: 100%;
   max-width: 1080px;
@@ -859,9 +864,10 @@ blockquote {
 }
 
 .view {
-    width: auto;
+    width: 50%;
     height: auto;
-    float: left;
+    /*float: left;*/
+    margin: 0 auto;
     border: 20px solid #fff;
     overflow: hidden;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
