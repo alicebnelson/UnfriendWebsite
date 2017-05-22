@@ -1063,7 +1063,7 @@ blockquote {
 
 .topRow {
   text-align: center;
-  display: inline-block;
+  /*display: inline-block;*/
   
 }
 
