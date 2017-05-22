@@ -865,7 +865,7 @@ blockquote {
 
 .view {
     width: 50%;
-    height: auto;
+    
     /*float: left;*/
     margin: 0 auto;
     border: 20px solid #fff;
@@ -873,8 +873,8 @@ blockquote {
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
 
-.view .mask, .view .content {
-    width: 100%;
+.view .mask, .content {
+    
     height: 100%;
     position: absolute;
     overflow: hidden;
@@ -948,6 +948,7 @@ blockquote {
 	background-color: rgba(27,105,148,0.8);
 	opacity:0;
 	transition: all 0.3s ease-in 0.4s;
+  left:0;
 }
 
 .view-sixth h2{
